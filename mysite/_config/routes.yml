@@ -1,0 +1,50 @@
+---
+Name: API routes
+After: framework/routes#coreroutes
+---
+Director:
+  rules:
+    'auth': 'Auth_Controller'
+    'api/auth': 'Auth_Controller'
+    'vimeo': 'Vimeo_Controller'
+
+    'Reset/PasswordComplete': 'PasswordComplete_Controller'
+    'Reset/FrenchPasswordComplete': 'FrenchPasswordComplete_Controller'
+
+    'school/staff': 'Staff_Controller'
+    'school/students': 'Students_Controller'
+    'school/classes': 'SchoolClass_Controller'
+    'school/tracks': 'Tracks_Controller'
+    'school/homework': 'HomeworkPlaylistClass_Controller'
+
+    'Staff_Controller': 'Staff_Controller'
+    'Students_Controller': 'Students_Controller'
+    'SchoolClass_Controller': 'SchoolClass_Controller'
+    'school': 'School_Controller'
+
+    'api/user/create': 'UserCreate_Controller'
+    'api/user/check': 'Checks_Controller'
+    'api/user/forgotten': 'ForgottenPass_Controller'
+    'api/user': 'User_Controller'
+    'api/favourite': 'Favourite_Controller'
+    'api/playlist': 'Playlist_Controller'
+    'api/subject': 'Subject_Controller'
+    'api/lesson': 'Lesson_Controller'
+    'api/quiz': 'Quiz_Controller'
+    'api/leaderboard': 'Leaderboard_Controller'
+    'api/information/points': 'InfoPoints_Controller'
+    'api/information': 'Information_Controller'
+    'api/subscription': 'Subscription_Controller'
+    'api/homeworkplaylists': 'HomeworkPlaylist_Controller'
+
+    'task/rank': 'RankUsers_Task'
+    'task/premium': 'PremiumNotification_Task'
+    'task/updateStudents': 'UpdateStudents_Task'
+    'task/resample': 'ResampleAudio_Task'
+
+    'api/wonde': 'Wonde_Controller'
+
+    'api/clever/auth': 'CleverInstantLoginAuth_Controller'
+
+    'api/west/data': 'WestData_Controller'
+    'api/west/auth': 'WestAuthentication_Controller'

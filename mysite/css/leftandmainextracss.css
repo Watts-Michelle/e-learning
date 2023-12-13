@@ -1,0 +1,8 @@
+.cms-logo a {
+    background: url("../../themes/studytracks/images/logo-mini.png") no-repeat left center;
+    background-size: 25px 23px;
+}
+
+#Menu-Help {
+    display: none;
+}

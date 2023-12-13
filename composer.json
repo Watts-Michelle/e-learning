@@ -1,0 +1,34 @@
+{
+    "name": "flipside/studytracks",
+    "description": "API and CMS for StudyTracks app",
+    "require": {
+        "silverstripe/cms": "3.*",
+        "silverstripe/framework": "3.*",
+        "league/oauth2-server": "4.1.*",
+        "silverstripe-australia/gridfieldextensions": "^1.4",
+        "undefinedoffset/sortablegridfield": "^0.6.1",
+        "unclecheese/betterbuttons": "^1.3",
+        "tractorcow/silverstripe-colorpicker": "3.0.0",
+        "ramsey/uuid": "^3.4",
+        "monolog/monolog": "^1.19",
+        "respect/validation": "^1.1",
+        "guzzlehttp/guzzle":"6.*",
+        "debach/zend-mp3": "^1.8",
+        "vimeo/vimeo-api": "1.2.3",
+        "burnbright/silverstripe-importexport": "^0.3.1",
+        "phpoffice/phpexcel": "^1.8",
+        "unclecheese/dropzone": "dev-master",
+        "unclecheese/display-logic": "dev-master",
+        "google/apiclient": "^2.0",
+        "wondeltd/php-client": "1.*",
+        "clever/clever": "*",
+        "league/oauth2-client": "^2.2",
+        "wildbit/postmark-php": "^2.3"
+    },
+    "authors": [
+        {
+            "name": "Jonathan Little",
+            "email": "jonathan@flipsidegroup.com"
+        }
+    ]
+}

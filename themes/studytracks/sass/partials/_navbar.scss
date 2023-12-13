@@ -1,0 +1,15 @@
+.navbar {
+  background-color: #9cb0c0;
+  height: 80px;
+  .navbar-brand {
+    padding: 1em;
+  }
+  .navbar-nav {
+    li {
+      a {
+        line-height: 50px;
+        color: #ffffff;
+      }
+    }
+  }
+}

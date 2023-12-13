@@ -1,0 +1,73 @@
+//import fonts
+@import "https://fonts.googleapis.com/css?family=Roboto:400,300,500";
+@import "https://fonts.googleapis.com/css?family=Crimson+Text:400,600,400italic";
+@import "https://fonts.googleapis.com/css?family=Montserrat:400,700";
+
+$roboto:  'Roboto', sans-serif;
+$crimson:  'Crimson Text', serif;
+$montserrat:  'Montserrat', sans-serif;
+
+@import "bootstrap";
+
+//settings
+@import "colors";
+
+@import "partials/mixins";
+@import "partials/security";
+@import "partials/navbar";
+@import "partials/footer";
+@import "partials/page";
+@import "partials/schools";
+@import "partials/box";
+@import "partials/forms";
+@import "partials/homework_playlists";
+
+.c-width-limit {
+  max-width: 1240px;
+}
+.container{
+  @media (min-width: 1200px) {
+    width: 1240px;
+  }
+}
+.button{
+  background: none;
+  border: 0;
+}
+#student-vimeo-video-wrapper, #teacher-vimeo-video-wrapper{
+  display: none;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.8);
+  position: fixed;
+  height: 100vh;
+  z-index: 9999;
+
+  iframe{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    right: 0;
+    left: 0;
+    top: 26%;
+    width: 50%;
+    height: 52%;
+  }
+
+  #student-vimeo-close, #teacher-vimeo-close{
+    position: absolute;
+    top: 22%;
+    right: 0;
+    left: 0;
+    width: 50%;
+    height: 52%;
+    text-align: right;
+    color: white;
+    font-size: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: pointer;
+  }
+}

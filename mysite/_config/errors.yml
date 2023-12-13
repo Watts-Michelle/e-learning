@@ -1,0 +1,18 @@
+ErrorCodes:
+
+  1001: The user credentials were incorrect.
+
+  2001: A field failed to validate.
+  2002: A user exists with this email address.
+  2004: A user exists with this username.
+  2003: Incorrect content type.
+
+  404: The endpoint requested was not found or you used the wrong verb (GET, POST, PUT, DELETE).
+  4001: Session not given.
+  4002: Session does not belong to this user.
+  4003: Either question is missing or it is not an array.
+  4004: Question not found in the user's session.
+  4005: Either question is missing or it is not an array.
+  4006: Missing answer to a previous question.
+  4007: No ID given.
+  4008: The ID given does not exist.

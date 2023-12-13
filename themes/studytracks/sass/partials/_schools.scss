@@ -1,0 +1,1058 @@
+#school {
+  background: url(../images/iStock-510794234.jpg);
+  background-size: cover;
+  .main-container {
+    max-width: 1240px;
+    margin: 0 auto;
+    margin-top: 70px;
+  }
+  .main {
+    padding: 0;
+    border-radius: 4px;
+  }
+
+  .breadcrumb {
+    background-color: #f2f2f2;
+    padding: 30px;
+    li {
+      color: #000000;
+      font-size: 18px;
+      a {
+        color: #000000;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .main-content {
+    padding: 0 30px 30px;
+    h2 {
+      color: #5f6977;
+      font-size: 30px;
+      display: inline-block;
+      margin-bottom: 30px;
+    }
+  }
+
+  .table {
+    th {
+      padding: 25px 25px;
+      background-color: #f2f2f2;
+      color: #5f6977;
+      border-bottom: 2px solid #ccc;
+      margin-right: 5px;
+    }
+    td {
+      border-bottom: 1px solid #ccc;
+      padding: 25px 25px;
+      margin-right: 5px;
+    }
+  }
+
+  .btn-add {
+    float: right;
+    background-color: #5ec2c4;
+    padding: 12px 10px;
+    width: 165px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .btn-upload {
+    background-color: #5ec2c4;
+    padding: 10px 10px;
+    width: 370px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .btn-class{
+    float: right;
+    background-color: #5ec2c4;
+    padding: 12px 10px;
+    width: 165px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  //#CsvFileDropzone{
+    //min-height: 80px;
+    //width: 370px;
+    //text-align: left;
+    //margin-bottom: 8px;
+    //padding: 1em 1em 0 1em;
+
+    //.dropzone-holder::after{
+    //  display: none;
+    //}
+    //.file-icon{
+    //  width: 0 !important;
+    //}
+    //.file-name{
+    //  padding: 0 8px;
+    //  max-width: 110px;
+    //}
+    //.file-size{
+    //  padding: 0 8px;
+    //  max-width: 90px;
+    //}
+    //.check-holder{
+    //  background-image: url('../images/check.png');
+    //  background-repeat: no-repeat;
+    //  background-size: contain;
+    //  background-position: 50% 50%;
+    //  width: 20px;
+    //  img{
+    //    display: none;
+    //  }
+    //}
+    //.list{
+    //  li{
+    //    height: 55px !important;
+    //  }
+    //}
+  //}
+  //#CsvFile{
+  //  padding: 0;
+  //  float: left;
+  //}
+  #Form_StudentUpload_CsvFile{
+    width: 370px;
+    border: 1px dotted black;
+    background-color: lightgray;
+    border-radius: 0;
+  }
+  #Form_StudentUpload{
+    height: auto;
+    overflow: hidden;
+    margin-top: -5px;
+    margin-bottom: 10px;
+    .Actions{
+      float: left;
+    }
+  }
+
+  .student-upload-spec{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #006959;
+    font-weight: 500;
+    padding-bottom: 15px;
+    width: 370px;
+  }
+
+  #student-upload-specification{
+    display: none;
+    background-color: #f2f2f2;
+    padding: 2%;
+    margin: 10px 0 15px 0;
+
+    a{
+      color: #006959;
+      font-weight: 600;
+      text-decoration: underline;
+    }
+
+    table{
+      margin: 20px 0;
+
+      th{
+        padding: 10px 5px;
+        border: 1px solid #ccc;
+        width: 100px;
+        text-align: center;
+        color: #5f6977;
+      }
+    }
+  }
+
+  footer {
+    background: none;
+  }
+
+  .col{
+    margin-bottom: 30px;
+  }
+
+  .block {
+    height: 50vh;
+    color: #fff;
+    padding: 30px;
+    text-transform: uppercase;
+    i.single {
+      background: url(../images/single-user.png);
+      background-size: cover;
+    }
+    i.multiple {
+      background: url(../images/multi-user.png);
+      background-size: cover;
+    }
+    i {
+      height: 65px;
+      width: 65px;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+      display: inline-block;
+    }
+    h2 {
+      font-size: 20px;
+      text-align: center;
+    }
+    .title-block {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    &.block-pupil {
+      background-color: #01bea0
+    }
+
+    &.block-class {
+      background-color: #1bcd7c
+    }
+
+    &.block-tracks {
+      background-color: #129157
+    }
+
+    &.block-active-students {
+      background-color: #006959
+    }
+
+    &.small-block {
+      height: 28vh;
+    }
+
+    .num {
+      font-size: 60px;
+      font-weight: lighter;
+      position: absolute;
+      display: inline-block;
+      bottom: 10px;
+      right: 45px;
+    }
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  #students-table{
+    &.active{
+      margin-top: 50px;
+    }
+    .elem{
+      display: none;
+    }
+  }
+
+  #bulk-change-class-form{
+    #bulk-change-class{
+      display: inline-block;
+      padding: 12px 0;
+      position: absolute;
+      top: 105px;
+      right: 215px;
+    }
+    .bulk-change-class{
+      display: block;
+      width: 350px;
+      position: absolute;
+      top: 160px;
+      right: 30px;
+
+      #ClassSelector{
+        width: 80%;
+        float: left;
+        left: 0;
+        top: 20px;
+        height: 42px;
+      }
+
+      #submit-bulk-change-class{
+        width: 20%;
+        float: left;
+        left: 0;
+        top: 0;
+        margin-top: 20px;
+      }
+
+      .btn-go-upload{
+        background-color: #5ec2c4;
+        padding: 7px 0;
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+      }
+
+      #submit-bulk-change-class{
+        display: none;
+      }
+
+      #ClassSelector{
+        display: none;
+      }
+    }
+  }
+
+  .student-dropdown{
+    top: -5px;
+    left: 15px;
+  }
+
+  //.dropzone-action{
+  //  background-image: url('../images/remove.png');
+  //  background-size: 16%;
+  //  background-repeat: no-repeat;
+  //  background-position: 96% 0;
+  //  margin-right: 30px;
+  //
+  //  img{
+  //    display: none;
+  //  }
+  //}
+
+  //.dropzone-holder::after{
+  //  display: none;
+  //}
+}
+
+/*
+ * Sidebar
+ */
+
+/* Hide for mobile, show later */
+.sidebar {
+  position: inherit;
+  margin-top: -20px;
+  padding: 20px;
+  color: #ffffff;
+
+  h2 {
+    text-align: left;
+    a {
+      color: #fff;
+    }
+  }
+
+  img {
+    max-width: 100%;
+  }
+}
+
+
+/* Sidebar navigation */
+.nav-sidebar {
+  margin-right: -10px; /* 20px padding + 1px border */
+  margin-bottom: 20px;
+  margin-left: -20px;
+  text-align: left;
+
+  a {
+    color: #fff;
+    &:hover {
+      color: #000;
+    }
+  }
+
+}
+.nav-sidebar > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 18px;
+}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+  color: #fff;
+  background-color:rgba(255, 255, 255, 0.3);
+}
+
+
+/*
+ * Main content
+ */
+
+.main {
+  background-color: #ffffff;
+}
+.main .page-header {
+  margin-top: 0;
+}
+
+@media (max-width: 600px) {
+  .sidebar  .row  div {
+    width: 100%;
+  }
+}
+
+
+/* gridfield style */
+
+$color-base: #b0bec7 !default;
+$color-widget-bg: lighten($color-base, 20%) !default;
+
+/* Keep as solid colours transparent borders wont work in ie */
+$color-darker-bg: #f0f2f4 !default;
+$color-dark-bg: #142136 !default;
+$color-dark-separator: #19435c !default;
+$color-medium-separator: #808080 !default;
+$color-separator: #C1C7CC !default; // Vertical dividers
+$color-light-separator: #D2D5D8 !default; // Horiontal dividers
+
+$color-tab: #d9d9d9 !default;
+$color-dark-grey: #7B8C91 !default;
+
+/* Only for use as shadows as they wont work in older browsers */
+$color-shadow-light: rgba(201, 205, 206, 0.8) !default;
+$color-shadow-dark: rgba(107, 120, 123, 0.5) !default;
+$color-shadow-black: rgba(0, 0, 0, 0.6) !default;
+$color-shadow-blacker: rgba(0, 0, 0, 0.9) !default;
+$box-shadow-shine: rgba(248, 248, 248, 0.9);
+$box-shadow-shine-minimal: rgba(245, 245, 245, 0.8);
+
+$color-highlight: #FFFF66 !default;
+$color-highlight-opacity: rgba(255, 255, 102, 0.3) !default;
+
+$color-menu-button: #338DC1 !default;
+$color-menu-background: #c6d7df !default;
+$color-menu-border: #8c99a1 !default;
+$color-panel-background: #c6d7df !default;
+
+$color-text: #4f5861 !default;
+$color-text-light: white !default;
+$color-text-light-link: white !default;
+$color-text-disabled: #aaa !default;
+$color-text-dark: #1f1f1f !default;
+$color-text-dark-link: #3EBAE0 !default;
+$color-text-blue-link: #0071c4 !default;
+$color-text-shadow: white !default;
+
+
+$color-button-generic: #e6e6e6 !default;
+$color-button-generic-border: #d0d3d5 !default;
+
+$color-button-highlight: #e6e6e6 !default;
+$color-button-highlight-border: #708284 !default;
+
+$color-button-constructive: #1F9433 !default;
+$color-button-constructive-border: #1F9433 !default;
+
+$color-button-destructive: #f00 !default;
+
+$color-button-disabled: #eeeded !default;
+
+$color-notice: #93CDE8 !default;		// blue
+$color-warning: #E9D104 !default;		// yellow
+$color-error: #e68288 !default;			// red
+$color-good: #72c34b !default;			// green
+/*$color-optional: #a1d2eb !default; */	// orange
+
+$color-cms-batchactions-menu-background: #f5f5f5 !default;
+$color-cms-batchactions-menu-selected-background: #fffcdc !default;
+
+
+$experimental-support-for-svg: true;
+
+
+$gf_colour_gradient_dark: darken($color-base, 8%);
+$gf_colour_header_border: $gf_colour_gradient_dark;
+$gf_colour_subheader: saturate(lighten($color-base, 15%),5%);
+$gf_colour_border: rgba(0,0,0,.1);
+$gf_colour_zebra: #F0F4F7;
+$gf_colour_font: #666;
+$gf_colour_text_shadow: rgba(0,0,0,.2);
+$gf_colour_text_shadow_dark: rgba(0,0,0,.4);
+$gf_border_radius:	5px;
+
+$gf_grid_y:	12px;
+$gf_grid_x:	16px;
+
+
+.ss-gridfield {
+  & > div {
+    margin-bottom: $gf_grid_y*3;
+    &.addNewGridFieldButton{
+      margin-bottom: 0;
+      .action {
+        margin-bottom:$gf_grid_y;
+      }
+    }
+    &.ss-gridfield-buttonrow-before{
+      margin-bottom: 0;
+      .action {
+        margin-bottom:$gf_grid_y;
+      }
+    }
+    &.ss-gridfield-buttonrow-after{
+      margin-bottom: 0;
+      .action {
+        margin-top:$gf_grid_y;
+      }
+    }
+  }
+
+  &[data-selectable] {
+    tr.ui-selected, tr.ui-selecting {
+      background: #FFFAD6 !important;
+    }
+
+    td {
+      cursor: pointer;
+    }
+  }
+
+  span button.action_gridfield_relationfind {
+    display:none; //hides find button - redundant functionality
+  }
+
+  p button.action_export {
+    span.btn-icon-download-csv {
+      height:17px; //exact height of icon
+    }
+  }
+  .right {
+    float:right;
+    & > * {
+      float: right;
+      margin-left:$gf_grid_x/2;
+    }
+
+    .pagination-records-number {
+      font-size: 1.0em;
+      padding: 6px 3px 6px 0;
+      color: $color-text-light;
+      font-weight: normal;
+    }
+  }
+  .left {
+    float:left;
+    & > * {
+      margin-right:$gf_grid_x/2;
+      float: left;
+    }
+  }
+}
+
+.ss-gridfield {
+  overflow-x: hidden;
+
+  .grid-levelup {
+    text-indent: -9999em;
+    a.list-parent-link{
+      background: transparent url(../images/gridfield-level-up.png) no-repeat 0 0;
+      display:block;
+    }
+    margin-bottom: 6px;
+  }
+  .add-existing-autocompleter {
+    span {
+      float: left;
+      display: inline-block;
+    }
+    input.relation-search {
+      width: 270px; height: 32px;
+      margin-bottom: $gf_grid_y;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+    button.action_gridfield_relationadd {
+      height: 32px;
+      margin-left: 0; // Webkit needs this
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      border-left: none;
+    }
+  }
+  .grid-csv-button, .grid-print-button {
+    margin-bottom: 0;
+    font-size: 14px;
+    display: inline-block;
+  }
+}
+table.ss-gridfield-table {
+  display: table;
+  padding: 0;
+  border-collapse: separate;
+  border-bottom: 0 none;
+  width: 100%;
+
+  thead {
+    color: darken($color-base, 50%);
+    background: transparent;
+    tr.filter-header {
+      .fieldgroup {
+        max-width:$gf_grid_x*32; //max width 512px
+        .fieldgroup-field {
+          padding:0;
+        }
+      }
+    }
+  }
+
+  tbody {
+    background: #FFF;
+    tr {
+      // This lets iOS Safari know that these elements are clickable
+      // and so to send the click events.
+      cursor: pointer;
+    }
+    td {
+      width: auto;
+      max-width: 500px; //This number is semi-arbitary. It is acting as a percentage limit, rather than actually constricting the width to 500px.
+      word-wrap:break-word;
+      // Give browser some hints on which cols take priority:
+      // The last column (buttons) should always shrink to fit.
+      // Overwritten for IE7, which doesnt support this.
+      &.col-buttons {
+        width: 1px;
+        padding:0 $gf_grid_x/2;
+        text-align: right;
+        white-space: nowrap;
+      }
+      &.col-listChildrenLink {
+        width:$gf_grid_x;
+        border-right:none;
+        text-indent:-9999em;
+        padding:0;
+        .list-children-link {
+          background: transparent url(../images/sitetree_ss_default_icons.png) no-repeat 3px -4px;
+          display:block;
+        }
+      }
+
+      &.col-getTreeTitle {
+        span.item {
+          color:$color-text-blue-link;
+        }
+        span.badge {
+          clear: both;
+          text-transform: uppercase;
+          display: inline-block;
+          padding: 0px 3px;
+          font-size: 0.75em;
+          line-height: 1em;
+          margin-left: 10px;
+          margin-right: 6px;
+          margin-top:  -1px;
+        }
+
+        span.badge.status-modified {
+          color:  #7E7470;
+          border: 1px solid #C9B800;
+          background-color: #FFF0BC;
+        }
+
+        span.badge.status-addedtodraft {
+          color:  #7E7470;
+          border: 1px solid #C9B800;
+          background-color: #FFF0BC;
+        }
+
+        span.badge.status-deletedonlive {
+          color:  #636363;
+          border: 1px solid #E49393;
+          background-color: #F2DADB;
+        }
+
+        span.badge.status-removedfromdraft {
+          color:  #636363;
+          border: 1px solid #E49393;
+          background-color: #F2DADB;
+        }
+
+        span.badge.status-workflow-approval {
+          color:  #56660C;
+          border: 1px solid #7C8816;
+          background-color: #DAE79A;
+        }
+      }
+
+      button {
+        border: none;
+        background: none;
+        margin: 0 0 0 2px;
+        padding: 1px 0;
+        width: auto;
+        text-shadow: none;
+        &.ui-state-hover {
+          background:none;
+        }
+        &.ui-state-active {
+          border:none;
+        }
+        &.gridfield-button-delete {
+          width: 20px;
+          margin: 0;
+          span.btn-icon-decline {
+            left: 2px;
+          }
+        }
+      }
+      a.view-link, a.edit-link {
+        display:inline-block;
+        width:20px;
+        height:20px; //min height to fit the edit icon
+        text-indent:9999em;
+        overflow: hidden;
+        vertical-align: middle;
+      }
+      a.view-link {
+        background: url(../admin/images/btn-icon/magnifier.png) no-repeat 0 1px;
+      }
+      a.edit-link {
+        background: url(../admin/images/btn-icon/document--pencil.png) no-repeat 2px 0px;
+      }
+    }
+  }
+
+  tfoot {
+    color: darken($color-base, 50%);
+    tr {
+      td {
+        background: $color-base;
+        padding: .7em;
+        border-bottom: 1px solid rgba(0,0,0,.1);
+      }
+    }
+  }
+
+  tr {
+    &.title {
+      th {
+        position: relative;
+        background: $gf_colour_gradient_dark;
+        border-bottom: 1px solid darken($gf_colour_gradient_dark,5%);
+        padding: 5px;
+        min-height: 40px; //this is to accomodate the add new button.
+        h2{
+          padding: 0px;
+          font-size: $gf_grid_y*1.4;
+          color:#fff;
+          margin: 1px 8px 0;
+          display:inline-block;
+          float:left;
+        }
+      }
+    }
+    &.sortable-header {
+      background: $gf_colour_subheader;
+      th{
+        padding: 0; // Should be padding: 0 1em; like td
+        font-weight: normal;
+        .ss-ui-button {
+          font-weight: normal;
+        }
+      }
+    }
+    &:hover {
+      background: #FFFAD6;
+    }
+    &:first-child {
+      background: transparent;
+
+      &:hover {
+        background: #FFFAD6;
+      }
+    }
+    &.ss-gridfield-even {
+      background: $gf_colour_zebra;
+
+      &.ss-gridfield-last {
+        border-bottom: none;
+      }
+      &:hover {
+        background: #FFFAD6;
+      }
+    }
+    &.even {
+      background: $gf_colour_zebra;
+
+      &:hover {
+        background: #FFFAD6;
+      }
+    }
+
+    th {
+      font-weight: bold;
+      font-size: $gf_grid_y;
+      color: #FFF;
+      padding: 5px;
+      border-right: 1px solid $gf_colour_border;
+
+      div {
+        &.fieldgroup,&.fieldgroup-field {
+          width: 100%;
+          position:relative;
+        }
+        &.fieldgroup {
+          min-width: $gf_grid_x*12.5;
+          padding-right:0;
+          &.filter-buttons{
+            min-width:49px;
+            box-shadow: none;
+            border: none;
+            div{
+              width:auto;
+              display:inline;
+            }
+          }
+        }
+      }
+      &.main{
+        white-space:nowrap;
+        border-top: 1px solid darken($color-base,4%);
+        border-left: 1px solid darken($color-base,4%);
+        color:#fff;
+        background: $gf_colour_gradient_dark;
+        border-bottom: 1px solid $gf_colour_border;
+        span{
+          padding-left: $gf_grid_x/2;
+          padding-right: $gf_grid_x/2;
+          margin-right: 8px;
+
+        }
+        &.col-listChildrenLink {
+          border-right:none;
+        }
+      }
+      &.extra,&.action {
+        padding: 0;
+        cursor: default;
+      }
+      &.extra {
+        position:relative;
+        background:darken($color-dark-grey, 10%);
+        background: rgba(#000, 0.7);
+        padding: 5px;
+        border-top:	$gf_colour_text_shadow;
+
+        input {
+          height:28px; //height of input field - to match design.
+        }
+
+        button.ss-ui-button {
+          padding: .3em;
+          line-height: 1;
+          position: relative;
+          border-bottom-width: 0;
+        }
+
+        select {
+          margin: 0;
+        }
+      }
+
+
+
+      button {
+        &.action_gridfield_relationadd:hover {
+          color: #444 !important; /* Not sure why IE think it needs this */
+        }
+        &:hover {
+          color: #ccc !important; /* Not sure why IE think it needs this */
+        }
+        &.ss-gridfield-sort:hover {
+          color: #fff !important;
+        }
+        &.ss-gridfield-sort {
+          background: transparent url(../images/arrows.png) no-repeat right 6px;
+          border:none;
+          width:100%;
+          text-align: left;
+          padding: 2px 8px 2px 0; // Doesn't need to be so big now that filter has moved
+          color: #fff;
+          &:hover {
+            background-position: right -34px;
+          }
+          &.ss-gridfield-sorted-desc {
+            background-position: right -72px;
+          }
+          &.ss-gridfield-sorted-asc {
+            background-position: right -116px;
+          }
+        }
+
+        &.ss-ui-button{
+          &.ss-gridfield-button-filter{
+            $bgImage: url(../images/icons/filter-icons.png) no-repeat;
+            background-color:lighten($color-menu-button,10%);
+            width: 26px;
+            border-top: 1px solid lighten($color-menu-button, 5%);
+
+
+            &.trigger{	//The magnifying glass before filter is opened
+              margin-left: $gf_grid_y;
+              border:none;
+              padding-right: 46px;
+              margin: 0 $gf_grid_y/2;
+
+              span{ //this is the dropdown arrow
+                opacity: 0.4;
+                position:absolute;
+                width:10px;
+                left:30px;
+                top:40%;
+                background:	url(../admin/images/btn_arrow_down_grey.png) no-repeat 0px 0px;
+              }
+              &:hover{
+                span{//dropdown arrow
+                  opacity:0.9;
+
+                }
+              }
+            }
+          }
+          &.ss-gridfield-button-close{
+            $bgImage: url(../images/icons/filter-icons.png) no-repeat;
+            width:25px;
+            opacity:0.8;
+            margin-right:-5px; //For IE
+            &.hover-alike:active, &:active, &.hover-alike, &:hover {
+              opacity:1;
+            }
+
+          }
+          &.ss-gridfield-button-reset{
+            position:absolute;
+            top: -21px;
+            right: -1px;
+            width:20px;
+            height:20px;
+            display:none;
+
+            &.filtered{
+              display:block;
+
+              background: url(../admin/images/btn-icon/cross.png) no-repeat 0px 0px;
+              opacity:0.5;
+              &:hover{
+                opacity:0.8;
+              }
+              &:active {
+                opacity:1;
+              }
+            }
+          }
+        }
+      }
+
+      input {
+        &.ss-gridfield-sort {
+          height:25px;
+          padding: 4px;
+          // Placeholder styling done with an each loop because when a browser
+          // doesn’t understand a selector, it invalidates the entire line of selectors.
+          // This avoids that, and keeps the scss tidy
+          $browserPlaceholder: "::-webkit-input-placeholder", ":-moz-placeholder", ":-ms-input-placeholder",	":placeholder";
+          border: 1px solid #313232;
+
+          @each $browser in $browserPlaceholder {
+            &#{$browser}{
+              font-style:italic;
+              color: lighten($color-dark-grey,30%);
+            }
+          }
+
+        }
+      }
+
+      span.non-sortable {
+        display:block;
+        padding: 6px 8px;
+      }
+    }
+
+    td {
+      border-right: 1px solid $gf_colour_border;
+      padding: $gf_grid_x/2 $gf_grid_x/2;
+      color: $gf_colour_font;
+      &.bottom-all {
+        padding: $gf_grid_x/4 $gf_grid_y;
+
+        .datagrid-footer-message {
+          text-align: center;
+          padding-top: 6px;
+          color:$color-text-light;
+        }
+        .datagrid-pagination {
+          padding-top:1px;
+          position:absolute;
+          left:50%;
+          margin-left:-116px; //half the width of .datagrid-pagination - centers pagination
+          .pagination-page-number {
+            color:$color-text-light;
+            text-align: center;
+            input {
+              width:35px; //exact width so that a four digit number can be entered
+              height:18px;
+              margin-bottom:-6px; //moves input field up to be aligned with the pagination buttons
+              padding:0px;
+              border: 1px solid darken($gf_colour_gradient_dark, 5%);
+              border-bottom: 1px solid lighten($gf_colour_gradient_dark, 5%);
+            }
+          }
+          z-index:5;
+          button{
+            border:none;
+            width:10px;
+            margin:0 10px;
+            display:inline;
+            float:none;
+            span {
+              text-indent:-9999em;
+            }
+            &.ssui-button-disabled{
+              z-index:-1;
+            }
+          }
+        }
+        .pagination-records-number {
+          float:right;
+          padding:6px 0;
+          color:$color-text-light;
+        }
+      }
+    }
+
+    &.last td {
+      border-bottom: 0 none;
+    }
+  }
+  td:first-child{
+    border-left: 1px solid $gf_colour_border;
+  }
+  td:last-child{
+    border-right: 1px solid $gf_colour_border;
+  }
+
+  // Thumbnails e.g. in File admin, UploadField and HtmlEditorField file selection
+  td.col-StripThumbnail {
+    padding: 2px 4px;
+    width: 32px;
+    height: 32px;
+
+    img {
+      width: 32px;
+      height: 32px;
+      display: block;
+    }
+  }
+}
+
+.gridfield-button-unlink {
+
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  &:before { content: "\e014"; }
+}

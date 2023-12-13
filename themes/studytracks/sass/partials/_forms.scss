@@ -1,0 +1,25 @@
+label {
+  display: block;
+}
+
+#school {
+  .password {
+    display: inline-block;
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    min-width: 1px;
+    float: left;
+  }
+}
+
+@media (max-width: 767px) {
+
+  #school {
+    .password {
+      width: 100%;
+    }
+  }
+
+}

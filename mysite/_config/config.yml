@@ -1,0 +1,95 @@
+---
+Name: mysite
+After:
+  - 'framework/*'
+---
+LeftAndMain:
+  application_name: 'Study Tracks'
+  application_link: 'http://flipsidegroup.com'
+SSViewer:
+  theme: studytracks
+DateField:
+  default_config:
+    showcalendar: true
+DevelopmentAdmin:
+  registered_controllers:
+      build:
+        controller: 'DevBuildExtension'
+GDBackend:
+    default_quality: 55
+File:
+  allowed_extensions:
+    - srt
+    - mp3
+    - mp4
+    - jpg
+    - png
+Currency:
+  currency_symbol: '&pound;'
+Session:
+  cookie_secure: true
+Security:
+  remember_username: false
+Member:
+  extensions:
+    - MemberExtension
+BetterButtonsUtils:
+  edit:
+    BetterButtonPrevNextAction: true
+    BetterButton_New: true
+  versioned_edit:
+    BetterButtonPrevNextAction: false
+    BetterButton_New: false
+  create:
+    BetterButton_New: true
+
+BetterButtonsActions:
+  create:
+    BetterButton_Save: true
+    BetterButton_SaveAndClose: true
+  cupcake: true
+
+  edit:
+    BetterButton_Save: true
+    BetterButton_SaveAndClose: true
+    BetterButton_Delete: true
+    BetterButtonFrontendLinksAction: true
+
+  versioned_create:
+    BetterButton_SaveDraft: false
+    BetterButton_Publish: false
+  versioned_edit:
+    BetterButton_SaveDraft: false
+    BetterButton_Publish: false
+    Group_Versioning: false
+    BetterButton_Delete: false
+    BetterButtonFrontendLinksAction: false
+
+BetterButtonsGroups:
+  SaveAnd:
+    label: Save and...
+    buttons:
+      BetterButton_SaveAndAdd: true
+      BetterButton_SaveAndClose: true
+      BetterButton_SaveAndNext: true
+      BetterButton_SaveAndPrev: true
+  Versioning:
+    label: Versioning...
+    buttons:
+      BetterButton_Rollback: false
+      BetterButton_Unpublish: false
+---
+After:
+  - '#coreconfig'
+---
+HTTP:
+  cache_control:
+    max-age: 0
+    must-revalidate: "true"
+    no-transform: "true"
+    no-store: true
+
+PostmarkMailer:
+  api_key: '5bd41f46-ecb5-491a-a565-fc20f100fcee'
+  sender_signatures:
+    - 'activation@studytracks.co'

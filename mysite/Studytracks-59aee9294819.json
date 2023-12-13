@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "firebase-studytracks",
+  "private_key_id": "59aee9294819955b76655897054b67f90e0ab498",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDGsiOyedjB/c8L\n5UodnXBM1ecrK8XaLSSNVN1Auu6rsOk0oE+NtAuAbjvGYbUOIgI5oN8GpEEu6TTW\nN8ti1/eM1wmRIoU+VuugNXVIycnyufzUaGlmGfIqBs0kYIoq/wMmJDpa6zahcjDA\nltZopJo5UNOhIp/6fEw4uc7wMA7v4+P6blAxAZwT1rUpPoXJ+0s115OxpKirJYCu\nzjhjluop9AigbaOsmemZGr4dJrMSjNNUQ2+6H0wllo6U6P03UDzoebk1DBqwY927\nyz6QVBXfPDTy4SpUy1kyf8gbzjyc4ozKAjGLeWHJ/HUMK2JS+0LNkhQ9R81ZpvhK\nZ9OMZJdlAgMBAAECggEALGUTCsakwrtl7n99rt5FgDVu4Dt4ioX5m8ZxZQwfVadC\ng+qpu7yVsU1v96RPIuhAXQXvrvk2QzgCATcYL26XthU54v62jLY5EWPAX9IOWDhs\nID1wB0sWy4MXhOA5HuA5oOUJUNUrMKll8TICmADnIJVJo8ArxHjPQwFpFkt2muyI\nHTxuyaPtcv4IJsYasRITV/v2Namotx3BxhqMSbKAvix2nGLrotUNLtoUd+hNcu+6\nXEwR5zckFJggrquF84wvOYPveAnvPNOurJf0nLoqGy0N2AEoG4KrMU6jueMacFAG\nyAgx/dMqXQQKY3rsqSn/bxX/QfaqMBwYrCW6taxsQQKBgQD0x08INIyQ8IXG7K1B\nCuY3Qdu5+EBCUjab2+bpkt5EAdWOeZVtHERFw9D8rRvCebCaErc8qlboyY9QeGbT\nSTx0ZNMWtottnOJnEB8J1dr6qACl+9wXXTALsTJZEAij7uNnvD0cW49FECw9XRK5\nhmagYtjVAvf79yRI48Rr0SaTcQKBgQDPzgKFiqq7QrlnsVSPbgBah6fBSjRDXkrI\n/mUf2jNaUnnl8/pbSCvSKgW9+e7oo2Y1uV3vw/oNLJOSZjZQDwMtuijLTKKAGORN\nY5SMVw1zTi9JA/CHpyeo1d6Xrya1GXADA4r4PEEsTL+069xk0xuOT2ztwkJRjgme\n8gVzdI6hNQKBgDKBFQtqXD5jghajKrQq3Yk1K3LZh9inQeEypBg5V2bMwhVdfLlA\nhc2nM22PAhVEKm3/wpLfyoLJY6qEzSJ3D+QsEWm0TFxXbFc7ekv7Ne1V0JxutOCV\nN56R9wNtTXsVhRIYQruhIJRtW9NlasGgu3gILRj2PdhdC72GUTa1trHhAoGBAKiZ\nCEq4utS7yhlrMqQ8J2VL8rtMLSMLebmhTQKO0mNRzzzWuiUdZRBar9X21fNBv0eP\nYbuKUXIm3IRHEYHa7EVJaJepUZ6Ek5aGWJuUdYE7yfl/jMNCx1agTrzaipkcTljj\novjMSkRa8J8lTecvsIfBwSsWFSB+ESg4TFvkEWSRAoGAW/8j6aO7TLucHSEeFbrn\n5uOqEFQk+ycgfZQ/EcH4fBqoQZDgkoW8eQhkaEkh4jrdi5Nw5WLH4v3OVYuQQRfe\nP+yOrVemOVZKo0CLkK/CxTyl7tq9xkjQKwT7I6GBcyidJXS/BgRTHDxDCqjEz/pF\nbAlcqjl8CjSjeZTAdPiThiM=\n-----END PRIVATE KEY-----\n",
+  "client_email": "studytracks@firebase-studytracks.iam.gserviceaccount.com",
+  "client_id": "113231050215657998405",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/studytracks%40firebase-studytracks.iam.gserviceaccount.com"
+}
